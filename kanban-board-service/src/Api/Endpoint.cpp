@@ -106,6 +106,7 @@ void Endpoint::registerRoutes() {
             }
             case HTTPMethod::Put: {
                 jsonItem = boardManager.putItem(columnID, itemID, req.body);
+                int a = 5;
                 break;
             }
             case HTTPMethod::Delete: {
